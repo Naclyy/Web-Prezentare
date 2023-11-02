@@ -3,10 +3,12 @@ import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 
 import { remoteRoutes } from './entry.routes';
-import { MainPageComponent } from './main-page/main-page.component';
+import { RegisterAccountComponent } from './register-account/register-account.component';
 
 @NgModule({
-  declarations: [MainPageComponent],
+  declarations: [
+    RegisterAccountComponent,
+  ],
   imports: [CommonModule, RouterModule.forChild(remoteRoutes)],
   providers: [],
 })

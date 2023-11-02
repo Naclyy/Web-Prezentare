@@ -10,27 +10,20 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": [
-      "es2020",
-      "dom"
-    ],
+    "lib": ["es2020", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@org/button": [
-        "button/src/index.ts"
-      ],
+      "@org/button": ["button/src/index.ts"],
       "account-remote/Module": [
         "apps/account-remote/src/app/remote-entry/entry.module.ts"
       ],
-      "mainpage/Module": [
-        "apps/mainpage/src/app/remote-entry/entry.module.ts"
+      "mainpage/Module": ["apps/mainpage/src/app/remote-entry/entry.module.ts"],
+      "register-account/Module": [
+        "apps/register-account/src/app/remote-entry/entry.module.ts"
       ]
     }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }
